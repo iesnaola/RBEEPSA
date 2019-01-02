@@ -1,0 +1,184 @@
+<https://w3id.org/rbeepsa/foi4rbeepsa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/rbeepsa/foi4rbeepsa> <http://www.w3.org/2002/07/owl#imports> <https://iesnaola.github.io/eepsa/FoI4EEPSA/ontology/ontology.ttl> .
+<https://w3id.org/rbeepsa/foi4rbeepsa> <http://creativecommons.org/ns#license> <https://creativecommons.org/licenses/by-nc/4.0/> .
+<https://w3id.org/rbeepsa/foi4rbeepsa> <http://purl.org/dc/terms/contributor> "Izaskun Fernandez <mailto:izaskun.fernandez@tekniker.es>\nAitor Arnaiz <mailto:aitor.arnaiz@tekniker.es>" .
+<https://w3id.org/rbeepsa/foi4rbeepsa> <http://purl.org/dc/terms/created> "2018-09-25"@en .
+<https://w3id.org/rbeepsa/foi4rbeepsa> <http://purl.org/dc/terms/creator> "Iker Esnaola-Gonzalez <mailto:iker.esnaola@tekniker.es>\nJes\u00FAs Berm\u00FAdez <mailto:jesus.bermudez@ehu.eus>" .
+<https://w3id.org/rbeepsa/foi4rbeepsa> <http://purl.org/dc/terms/description> "Feature of Interest ontology module for the RBEEPSA Ontology"@en .
+<https://w3id.org/rbeepsa/foi4rbeepsa> <http://purl.org/dc/terms/description> "This ontology module describes the Feature of Interest terminology under the aff:FeatureOfInterest class for the PFEEPSA Ontology."@en .
+<https://w3id.org/rbeepsa/foi4rbeepsa> <http://purl.org/dc/terms/issued> "2018-09-30" .
+<https://w3id.org/rbeepsa/foi4rbeepsa> <http://purl.org/dc/terms/modified> "2018-09-30"@en .
+<https://w3id.org/rbeepsa/foi4rbeepsa> <http://purl.org/dc/terms/title> "Feature of Interest module for the PFEEPSA Ontology."@en .
+<https://w3id.org/rbeepsa/foi4rbeepsa> <http://purl.org/ontology/bibo/status> "Work in Progress"@en .
+<https://w3id.org/rbeepsa/foi4rbeepsa> <http://purl.org/vocab/vann/preferredNamespacePrefix> "foi4pfeepsa" .
+<https://w3id.org/rbeepsa/foi4rbeepsa> <http://purl.org/vocab/vann/preferredNamespaceUri> <https://w3id.org/pfeepsa/foi4pfeepsa> .
+<https://w3id.org/rbeepsa/foi4rbeepsa> <http://www.w3.org/2002/07/owl#versionInfo> "1.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://creativecommons.org/ns#license
+<http://creativecommons.org/ns#license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/date
+<http://purl.org/dc/elements/1.1/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/publisher
+<http://purl.org/dc/elements/1.1/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/contributor
+<http://purl.org/dc/terms/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/ontology/bibo/status
+<http://purl.org/ontology/bibo/status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2002/07/owl#versionInfo
+<http://www.w3.org/2002/07/owl#versionInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2003/06/sw-vocab-status/ns#term_status
+<http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://xmlns.com/foaf/0.1/based_near
+<http://xmlns.com/foaf/0.1/based_near> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/vocommons/voaf#Vocabulary
+<http://purl.org/vocommons/voaf#Vocabulary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/affectedBy#FeatureOfInterest
+<https://w3id.org/affectedBy#FeatureOfInterest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/rbeepsa/foi4rbeepsa#Boiler
+<https://w3id.org/rbeepsa/foi4rbeepsa#Boiler> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/rbeepsa/foi4rbeepsa#Boiler> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/rbeepsa/foi4rbeepsa#HomeAppliance> .
+<https://w3id.org/rbeepsa/foi4rbeepsa#Boiler> <http://www.w3.org/2000/01/rdf-schema#comment> "Sealed vessel where water is warm up"@en .
+<https://w3id.org/rbeepsa/foi4rbeepsa#Boiler> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://elite.polito.it/ontologies/dogont.owl#> .
+<https://w3id.org/rbeepsa/foi4rbeepsa#Boiler> <http://www.w3.org/2000/01/rdf-schema#label> "Boiler" .
+<https://w3id.org/rbeepsa/foi4rbeepsa#Boiler> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# https://w3id.org/rbeepsa/foi4rbeepsa#Cooker
+<https://w3id.org/rbeepsa/foi4rbeepsa#Cooker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/rbeepsa/foi4rbeepsa#Cooker> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/rbeepsa/foi4rbeepsa#HomeAppliance> .
+<https://w3id.org/rbeepsa/foi4rbeepsa#Cooker> <http://www.w3.org/2000/01/rdf-schema#comment> "A utensil for cooking"@en .
+<https://w3id.org/rbeepsa/foi4rbeepsa#Cooker> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://elite.polito.it/ontologies/dogont.owl#> .
+<https://w3id.org/rbeepsa/foi4rbeepsa#Cooker> <http://www.w3.org/2000/01/rdf-schema#label> "Cooker"@en .
+<https://w3id.org/rbeepsa/foi4rbeepsa#Cooker> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# https://w3id.org/rbeepsa/foi4rbeepsa#Dishwasher
+<https://w3id.org/rbeepsa/foi4rbeepsa#Dishwasher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/rbeepsa/foi4rbeepsa#Dishwasher> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/rbeepsa/foi4rbeepsa#HomeAppliance> .
+<https://w3id.org/rbeepsa/foi4rbeepsa#Dishwasher> <http://www.w3.org/2000/01/rdf-schema#comment> "A machine for washing dishes"@en .
+<https://w3id.org/rbeepsa/foi4rbeepsa#Dishwasher> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://elite.polito.it/ontologies/dogont.owl#> .
+<https://w3id.org/rbeepsa/foi4rbeepsa#Dishwasher> <http://www.w3.org/2000/01/rdf-schema#label> "Dishwasher"@en .
+<https://w3id.org/rbeepsa/foi4rbeepsa#Dishwasher> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# https://w3id.org/rbeepsa/foi4rbeepsa#Freezer
+<https://w3id.org/rbeepsa/foi4rbeepsa#Freezer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/rbeepsa/foi4rbeepsa#Freezer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/rbeepsa/foi4rbeepsa#HomeAppliance> .
+<https://w3id.org/rbeepsa/foi4rbeepsa#Freezer> <http://www.w3.org/2000/01/rdf-schema#comment> "A refrigerated cabinet or room for preserving food at very low temperatures"@en .
+<https://w3id.org/rbeepsa/foi4rbeepsa#Freezer> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/rb4eepsa/rb-foi4eepsa> .
+<https://w3id.org/rbeepsa/foi4rbeepsa#Freezer> <http://www.w3.org/2000/01/rdf-schema#label> "Freezer"@en .
+<https://w3id.org/rbeepsa/foi4rbeepsa#Freezer> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# https://w3id.org/rbeepsa/foi4rbeepsa#Fridge
+<https://w3id.org/rbeepsa/foi4rbeepsa#Fridge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/rbeepsa/foi4rbeepsa#Fridge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/rbeepsa/foi4rbeepsa#HomeAppliance> .
+<https://w3id.org/rbeepsa/foi4rbeepsa#Fridge> <http://www.w3.org/2000/01/rdf-schema#comment> "A refrigerator in which the coolant is pumped around by an electric motor"@en .
+<https://w3id.org/rbeepsa/foi4rbeepsa#Fridge> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://elite.polito.it/ontologies/dogont.owl#> .
+<https://w3id.org/rbeepsa/foi4rbeepsa#Fridge> <http://www.w3.org/2000/01/rdf-schema#label> "Fridge"@en .
+<https://w3id.org/rbeepsa/foi4rbeepsa#Fridge> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# https://w3id.org/rbeepsa/foi4rbeepsa#HomeAppliance
+<https://w3id.org/rbeepsa/foi4rbeepsa#HomeAppliance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/rbeepsa/foi4rbeepsa#HomeAppliance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/affectedBy#FeatureOfInterest> .
+<https://w3id.org/rbeepsa/foi4rbeepsa#HomeAppliance> <http://www.w3.org/2000/01/rdf-schema#comment> "An electrical/mechanical machine which accomplish some household functions"@en .
+<https://w3id.org/rbeepsa/foi4rbeepsa#HomeAppliance> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/rbeepsa/foi4rbeepsa#> .
+<https://w3id.org/rbeepsa/foi4rbeepsa#HomeAppliance> <http://www.w3.org/2000/01/rdf-schema#label> "Home Appliance"@en .
+<https://w3id.org/rbeepsa/foi4rbeepsa#HomeAppliance> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+# 
+# https://w3id.org/rbeepsa/foi4rbeepsa#MicrowaveOven
+<https://w3id.org/rbeepsa/foi4rbeepsa#MicrowaveOven> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/rbeepsa/foi4rbeepsa#MicrowaveOven> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/rbeepsa/foi4rbeepsa#HomeAppliance> .
+<https://w3id.org/rbeepsa/foi4rbeepsa#MicrowaveOven> <http://www.w3.org/2000/01/rdf-schema#comment> "Microwave oven"@en .
+<https://w3id.org/rbeepsa/foi4rbeepsa#MicrowaveOven> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://elite.polito.it/ontologies/dogont.owl#> .
+<https://w3id.org/rbeepsa/foi4rbeepsa#MicrowaveOven> <http://www.w3.org/2000/01/rdf-schema#label> "Microwave Oven"@en .
+<https://w3id.org/rbeepsa/foi4rbeepsa#MicrowaveOven> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# https://w3id.org/rbeepsa/foi4rbeepsa#Stove
+<https://w3id.org/rbeepsa/foi4rbeepsa#Stove> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/rbeepsa/foi4rbeepsa#Stove> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/rbeepsa/foi4rbeepsa#HomeAppliance> .
+<https://w3id.org/rbeepsa/foi4rbeepsa#Stove> <http://www.w3.org/2000/01/rdf-schema#comment> "Heating apparatus"@en .
+<https://w3id.org/rbeepsa/foi4rbeepsa#Stove> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://elite.polito.it/ontologies/dogont.owl#> .
+<https://w3id.org/rbeepsa/foi4rbeepsa#Stove> <http://www.w3.org/2000/01/rdf-schema#label> "Stove"@en .
+<https://w3id.org/rbeepsa/foi4rbeepsa#Stove> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# https://w3id.org/rbeepsa/foi4rbeepsa#TumbleDryer
+<https://w3id.org/rbeepsa/foi4rbeepsa#TumbleDryer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/rbeepsa/foi4rbeepsa#TumbleDryer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/rbeepsa/foi4rbeepsa#HomeAppliance> .
+<https://w3id.org/rbeepsa/foi4rbeepsa#TumbleDryer> <http://www.w3.org/2000/01/rdf-schema#comment> "a machine that dries washed clothes by spinning them in hot air inside a rotating drum"@en .
+<https://w3id.org/rbeepsa/foi4rbeepsa#TumbleDryer> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/rb4eepsa/rb-foi4eepsa> .
+<https://w3id.org/rbeepsa/foi4rbeepsa#TumbleDryer> <http://www.w3.org/2000/01/rdf-schema#label> "Tumble Dryer"@en .
+<https://w3id.org/rbeepsa/foi4rbeepsa#TumbleDryer> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# https://w3id.org/rbeepsa/foi4rbeepsa#WashingMachine
+<https://w3id.org/rbeepsa/foi4rbeepsa#WashingMachine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/rbeepsa/foi4rbeepsa#WashingMachine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/rbeepsa/foi4rbeepsa#HomeAppliance> .
+<https://w3id.org/rbeepsa/foi4rbeepsa#WashingMachine> <http://www.w3.org/2000/01/rdf-schema#comment> "A home appliance for washing clothes and linens automatically"@en .
+<https://w3id.org/rbeepsa/foi4rbeepsa#WashingMachine> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://elite.polito.it/ontologies/dogont.owl#> .
+<https://w3id.org/rbeepsa/foi4rbeepsa#WashingMachine> <http://www.w3.org/2000/01/rdf-schema#label> "Washing Machine"@en .
+<https://w3id.org/rbeepsa/foi4rbeepsa#WashingMachine> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/eepsa/foi4eepsa#
+<https://w3id.org/eepsa/foi4eepsa#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# https://w3id.org/pfeepsa/foi4pfeepsa#
+<https://w3id.org/pfeepsa/foi4pfeepsa#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/pfeepsa/foi4pfeepsa#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
+# 
+# Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/

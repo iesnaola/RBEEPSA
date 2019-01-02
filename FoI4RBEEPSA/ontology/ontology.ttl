@@ -1,0 +1,210 @@
+@prefix : <https://w3id.org/rbeepsa/foi4rbeepsa#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://w3id.org/rbeepsa/foi4rbeepsa> .
+
+<https://w3id.org/rbeepsa/foi4rbeepsa> rdf:type owl:Ontology ;
+                                        owl:imports <https://iesnaola.github.io/eepsa/FoI4EEPSA/ontology/ontology.ttl> ;
+                                        <http://creativecommons.org/ns#license> <https://creativecommons.org/licenses/by-nc/4.0/> ;
+                                        <http://purl.org/dc/terms/contributor> """Izaskun Fernandez <mailto:izaskun.fernandez@tekniker.es>
+Aitor Arnaiz <mailto:aitor.arnaiz@tekniker.es>"""^^xsd:string ;
+                                        <http://purl.org/dc/terms/created> "2018-09-25"@en ;
+                                        <http://purl.org/dc/terms/creator> """Iker Esnaola-Gonzalez <mailto:iker.esnaola@tekniker.es>
+Jesús Bermúdez <mailto:jesus.bermudez@ehu.eus>"""^^xsd:string ;
+                                        <http://purl.org/dc/terms/description> "Feature of Interest ontology module for the RBEEPSA Ontology"@en ,
+                                                                               "This ontology module describes the Feature of Interest terminology under the aff:FeatureOfInterest class for the PFEEPSA Ontology."@en ;
+                                        <http://purl.org/dc/terms/issued> "2018-09-30"^^xsd:string ;
+                                        <http://purl.org/dc/terms/modified> "2018-09-30"@en ;
+                                        <http://purl.org/dc/terms/title> "Feature of Interest module for the PFEEPSA Ontology."@en ;
+                                        <http://purl.org/ontology/bibo/status> "Work in Progress"@en ;
+                                        <http://purl.org/vocab/vann/preferredNamespacePrefix> "foi4pfeepsa"^^xsd:string ;
+                                        <http://purl.org/vocab/vann/preferredNamespaceUri> <https://w3id.org/pfeepsa/foi4pfeepsa> ;
+                                        owl:versionInfo 1.0 .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://creativecommons.org/ns#license
+<http://creativecommons.org/ns#license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/date
+<http://purl.org/dc/elements/1.1/date> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/publisher
+<http://purl.org/dc/elements/1.1/publisher> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/contributor
+<http://purl.org/dc/terms/contributor> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/ontology/bibo/status
+<http://purl.org/ontology/bibo/status> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2002/07/owl#versionInfo
+owl:versionInfo rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2003/06/sw-vocab-status/ns#term_status
+<http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/based_near
+<http://xmlns.com/foaf/0.1/based_near> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://purl.org/vocommons/voaf#Vocabulary
+<http://purl.org/vocommons/voaf#Vocabulary> rdf:type owl:Class .
+
+
+###  https://w3id.org/affectedBy#FeatureOfInterest
+<https://w3id.org/affectedBy#FeatureOfInterest> rdf:type owl:Class .
+
+
+###  https://w3id.org/rbeepsa/foi4rbeepsa#Boiler
+:Boiler rdf:type owl:Class ;
+        rdfs:subClassOf :HomeAppliance ;
+        rdfs:comment "Sealed vessel where water is warm up"@en ;
+        rdfs:isDefinedBy <http://elite.polito.it/ontologies/dogont.owl#> ;
+        rdfs:label "Boiler"^^xsd:string ;
+        <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"^^xsd:string .
+
+
+###  https://w3id.org/rbeepsa/foi4rbeepsa#Cooker
+:Cooker rdf:type owl:Class ;
+        rdfs:subClassOf :HomeAppliance ;
+        rdfs:comment "A utensil for cooking"@en ;
+        rdfs:isDefinedBy <http://elite.polito.it/ontologies/dogont.owl#> ;
+        rdfs:label "Cooker"@en ;
+        <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"^^xsd:string .
+
+
+###  https://w3id.org/rbeepsa/foi4rbeepsa#Dishwasher
+:Dishwasher rdf:type owl:Class ;
+            rdfs:subClassOf :HomeAppliance ;
+            rdfs:comment "A machine for washing dishes"@en ;
+            rdfs:isDefinedBy <http://elite.polito.it/ontologies/dogont.owl#> ;
+            rdfs:label "Dishwasher"@en ;
+            <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"^^xsd:string .
+
+
+###  https://w3id.org/rbeepsa/foi4rbeepsa#Freezer
+:Freezer rdf:type owl:Class ;
+         rdfs:subClassOf :HomeAppliance ;
+         rdfs:comment "A refrigerated cabinet or room for preserving food at very low temperatures"@en ;
+         rdfs:isDefinedBy <https://w3id.org/rb4eepsa/rb-foi4eepsa> ;
+         rdfs:label "Freezer"@en ;
+         <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"^^xsd:string .
+
+
+###  https://w3id.org/rbeepsa/foi4rbeepsa#Fridge
+:Fridge rdf:type owl:Class ;
+        rdfs:subClassOf :HomeAppliance ;
+        rdfs:comment "A refrigerator in which the coolant is pumped around by an electric motor"@en ;
+        rdfs:isDefinedBy <http://elite.polito.it/ontologies/dogont.owl#> ;
+        rdfs:label "Fridge"@en ;
+        <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"^^xsd:string .
+
+
+###  https://w3id.org/rbeepsa/foi4rbeepsa#HomeAppliance
+:HomeAppliance rdf:type owl:Class ;
+               rdfs:subClassOf <https://w3id.org/affectedBy#FeatureOfInterest> ;
+               rdfs:comment "An electrical/mechanical machine which accomplish some household functions"@en ;
+               rdfs:isDefinedBy : ;
+               rdfs:label "Home Appliance"@en ;
+               <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"@en .
+
+
+###  https://w3id.org/rbeepsa/foi4rbeepsa#MicrowaveOven
+:MicrowaveOven rdf:type owl:Class ;
+               rdfs:subClassOf :HomeAppliance ;
+               rdfs:comment "Microwave oven"@en ;
+               rdfs:isDefinedBy <http://elite.polito.it/ontologies/dogont.owl#> ;
+               rdfs:label "Microwave Oven"@en ;
+               <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"^^xsd:string .
+
+
+###  https://w3id.org/rbeepsa/foi4rbeepsa#Stove
+:Stove rdf:type owl:Class ;
+       rdfs:subClassOf :HomeAppliance ;
+       rdfs:comment "Heating apparatus"@en ;
+       rdfs:isDefinedBy <http://elite.polito.it/ontologies/dogont.owl#> ;
+       rdfs:label "Stove"@en ;
+       <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"^^xsd:string .
+
+
+###  https://w3id.org/rbeepsa/foi4rbeepsa#TumbleDryer
+:TumbleDryer rdf:type owl:Class ;
+             rdfs:subClassOf :HomeAppliance ;
+             rdfs:comment "a machine that dries washed clothes by spinning them in hot air inside a rotating drum"@en ;
+             rdfs:isDefinedBy <https://w3id.org/rb4eepsa/rb-foi4eepsa> ;
+             rdfs:label "Tumble Dryer"@en ;
+             <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"^^xsd:string .
+
+
+###  https://w3id.org/rbeepsa/foi4rbeepsa#WashingMachine
+:WashingMachine rdf:type owl:Class ;
+                rdfs:subClassOf :HomeAppliance ;
+                rdfs:comment "A home appliance for washing clothes and linens automatically"@en ;
+                rdfs:isDefinedBy <http://elite.polito.it/ontologies/dogont.owl#> ;
+                rdfs:label "Washing Machine"@en ;
+                <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable"^^xsd:string .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  https://w3id.org/eepsa/foi4eepsa#
+<https://w3id.org/eepsa/foi4eepsa#> rdf:type owl:NamedIndividual .
+
+
+###  https://w3id.org/pfeepsa/foi4pfeepsa#
+<https://w3id.org/pfeepsa/foi4pfeepsa#> rdf:type owl:NamedIndividual ,
+                                                 <http://purl.org/vocommons/voaf#Vocabulary> .
+
+
+###  Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/

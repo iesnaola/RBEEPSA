@@ -1,0 +1,348 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/rbeepsa/foi4rbeepsa#"
+     xml:base="https://w3id.org/rbeepsa/foi4rbeepsa"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:ns="http://creativecommons.org/ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:ns1="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="https://w3id.org/rbeepsa/foi4rbeepsa">
+        <owl:imports rdf:resource="https://iesnaola.github.io/eepsa/FoI4EEPSA/ontology/ontology.ttl"/>
+        <ns:license rdf:resource="https://creativecommons.org/licenses/by-nc/4.0/"/>
+        <terms:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Izaskun Fernandez &lt;mailto:izaskun.fernandez@tekniker.es&gt;
+Aitor Arnaiz &lt;mailto:aitor.arnaiz@tekniker.es&gt;</terms:contributor>
+        <terms:created xml:lang="en">2018-09-25</terms:created>
+        <terms:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iker Esnaola-Gonzalez &lt;mailto:iker.esnaola@tekniker.es&gt;
+Jesús Bermúdez &lt;mailto:jesus.bermudez@ehu.eus&gt;</terms:creator>
+        <terms:description xml:lang="en">Feature of Interest ontology module for the RBEEPSA Ontology</terms:description>
+        <terms:description xml:lang="en">This ontology module describes the Feature of Interest terminology under the aff:FeatureOfInterest class for the PFEEPSA Ontology.</terms:description>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-09-30</terms:issued>
+        <terms:modified xml:lang="en">2018-09-30</terms:modified>
+        <terms:title xml:lang="en">Feature of Interest module for the PFEEPSA Ontology.</terms:title>
+        <bibo:status xml:lang="en">Work in Progress</bibo:status>
+        <vann:preferredNamespacePrefix rdf:datatype="http://www.w3.org/2001/XMLSchema#string">foi4pfeepsa</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri rdf:resource="https://w3id.org/pfeepsa/foi4pfeepsa"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://creativecommons.org/ns#license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://creativecommons.org/ns#license"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/status -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/status"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#versionInfo -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#versionInfo"/>
+    
+
+
+    <!-- http://www.w3.org/2003/06/sw-vocab-status/ns#term_status -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/based_near -->
+
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/based_near"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/vocommons/voaf#Vocabulary -->
+
+
+    <owl:Class rdf:about="http://purl.org/vocommons/voaf#Vocabulary"/>
+    
+
+
+    <!-- https://w3id.org/affectedBy#FeatureOfInterest -->
+
+
+    <owl:Class rdf:about="https://w3id.org/affectedBy#FeatureOfInterest"/>
+    
+
+
+    <!-- https://w3id.org/rbeepsa/foi4rbeepsa#Boiler -->
+
+
+    <owl:Class rdf:about="https://w3id.org/rbeepsa/foi4rbeepsa#Boiler">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/rbeepsa/foi4rbeepsa#HomeAppliance"/>
+        <rdfs:comment xml:lang="en">Sealed vessel where water is warm up</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://elite.polito.it/ontologies/dogont.owl#"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boiler</rdfs:label>
+        <ns1:term_status rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stable</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/rbeepsa/foi4rbeepsa#Cooker -->
+
+
+    <owl:Class rdf:about="https://w3id.org/rbeepsa/foi4rbeepsa#Cooker">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/rbeepsa/foi4rbeepsa#HomeAppliance"/>
+        <rdfs:comment xml:lang="en">A utensil for cooking</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://elite.polito.it/ontologies/dogont.owl#"/>
+        <rdfs:label xml:lang="en">Cooker</rdfs:label>
+        <ns1:term_status rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stable</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/rbeepsa/foi4rbeepsa#Dishwasher -->
+
+
+    <owl:Class rdf:about="https://w3id.org/rbeepsa/foi4rbeepsa#Dishwasher">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/rbeepsa/foi4rbeepsa#HomeAppliance"/>
+        <rdfs:comment xml:lang="en">A machine for washing dishes</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://elite.polito.it/ontologies/dogont.owl#"/>
+        <rdfs:label xml:lang="en">Dishwasher</rdfs:label>
+        <ns1:term_status rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stable</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/rbeepsa/foi4rbeepsa#Freezer -->
+
+
+    <owl:Class rdf:about="https://w3id.org/rbeepsa/foi4rbeepsa#Freezer">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/rbeepsa/foi4rbeepsa#HomeAppliance"/>
+        <rdfs:comment xml:lang="en">A refrigerated cabinet or room for preserving food at very low temperatures</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/rb4eepsa/rb-foi4eepsa"/>
+        <rdfs:label xml:lang="en">Freezer</rdfs:label>
+        <ns1:term_status rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stable</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/rbeepsa/foi4rbeepsa#Fridge -->
+
+
+    <owl:Class rdf:about="https://w3id.org/rbeepsa/foi4rbeepsa#Fridge">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/rbeepsa/foi4rbeepsa#HomeAppliance"/>
+        <rdfs:comment xml:lang="en">A refrigerator in which the coolant is pumped around by an electric motor</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://elite.polito.it/ontologies/dogont.owl#"/>
+        <rdfs:label xml:lang="en">Fridge</rdfs:label>
+        <ns1:term_status rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stable</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/rbeepsa/foi4rbeepsa#HomeAppliance -->
+
+
+    <owl:Class rdf:about="https://w3id.org/rbeepsa/foi4rbeepsa#HomeAppliance">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/affectedBy#FeatureOfInterest"/>
+        <rdfs:comment xml:lang="en">An electrical/mechanical machine which accomplish some household functions</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/rbeepsa/foi4rbeepsa#"/>
+        <rdfs:label xml:lang="en">Home Appliance</rdfs:label>
+        <ns1:term_status xml:lang="en">stable</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/rbeepsa/foi4rbeepsa#MicrowaveOven -->
+
+
+    <owl:Class rdf:about="https://w3id.org/rbeepsa/foi4rbeepsa#MicrowaveOven">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/rbeepsa/foi4rbeepsa#HomeAppliance"/>
+        <rdfs:comment xml:lang="en">Microwave oven</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://elite.polito.it/ontologies/dogont.owl#"/>
+        <rdfs:label xml:lang="en">Microwave Oven</rdfs:label>
+        <ns1:term_status rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stable</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/rbeepsa/foi4rbeepsa#Stove -->
+
+
+    <owl:Class rdf:about="https://w3id.org/rbeepsa/foi4rbeepsa#Stove">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/rbeepsa/foi4rbeepsa#HomeAppliance"/>
+        <rdfs:comment xml:lang="en">Heating apparatus</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://elite.polito.it/ontologies/dogont.owl#"/>
+        <rdfs:label xml:lang="en">Stove</rdfs:label>
+        <ns1:term_status rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stable</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/rbeepsa/foi4rbeepsa#TumbleDryer -->
+
+
+    <owl:Class rdf:about="https://w3id.org/rbeepsa/foi4rbeepsa#TumbleDryer">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/rbeepsa/foi4rbeepsa#HomeAppliance"/>
+        <rdfs:comment xml:lang="en">a machine that dries washed clothes by spinning them in hot air inside a rotating drum</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="https://w3id.org/rb4eepsa/rb-foi4eepsa"/>
+        <rdfs:label xml:lang="en">Tumble Dryer</rdfs:label>
+        <ns1:term_status rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stable</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/rbeepsa/foi4rbeepsa#WashingMachine -->
+
+
+    <owl:Class rdf:about="https://w3id.org/rbeepsa/foi4rbeepsa#WashingMachine">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/rbeepsa/foi4rbeepsa#HomeAppliance"/>
+        <rdfs:comment xml:lang="en">A home appliance for washing clothes and linens automatically</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://elite.polito.it/ontologies/dogont.owl#"/>
+        <rdfs:label xml:lang="en">Washing Machine</rdfs:label>
+        <ns1:term_status rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stable</ns1:term_status>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/eepsa/foi4eepsa# -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/eepsa/foi4eepsa#"/>
+    
+
+
+    <!-- https://w3id.org/pfeepsa/foi4pfeepsa# -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/pfeepsa/foi4pfeepsa#">
+        <rdf:type rdf:resource="http://purl.org/vocommons/voaf#Vocabulary"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/ -->
+
+
